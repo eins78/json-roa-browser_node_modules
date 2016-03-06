@@ -1,0 +1,101 @@
+{
+  "_args": [
+    [
+      "coffee-react@^4.0.0",
+      "/Users/mfa/CODE/json-roa/json-roa-browser/node_modules/coffee-jsx-loader"
+    ]
+  ],
+  "_from": "coffee-react@>=4.0.0 <5.0.0",
+  "_id": "coffee-react@4.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/coffee-react",
+  "_nodeVersion": "4.1.1",
+  "_npmUser": {
+    "email": "james@jsdf.co",
+    "name": "jsdf"
+  },
+  "_npmVersion": "2.14.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "coffee-react",
+    "raw": "coffee-react@^4.0.0",
+    "rawSpec": "^4.0.0",
+    "scope": null,
+    "spec": ">=4.0.0 <5.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/coffee-jsx-loader"
+  ],
+  "_resolved": "https://registry.npmjs.org/coffee-react/-/coffee-react-4.1.0.tgz",
+  "_shasum": "1af1042c5ea12735ab267b5436d855718f0d9d25",
+  "_shrinkwrap": null,
+  "_spec": "coffee-react@^4.0.0",
+  "_where": "/Users/mfa/CODE/json-roa/json-roa-browser/node_modules/coffee-jsx-loader",
+  "author": {
+    "name": "James Friend"
+  },
+  "bin": {
+    "cjsx": "./bin/cjsx"
+  },
+  "bugs": {
+    "url": "https://github.com/jsdf/coffee-react/issues"
+  },
+  "dependencies": {
+    "coffee-react-jstransform": "^1.0.0",
+    "coffee-react-transform": "^3.1.0",
+    "coffee-script": "^1.9.1",
+    "mkdirp": "^0.5.0"
+  },
+  "description": "Coffeescript compiler wrapper adding coffee-react-transform CJSX support",
+  "devDependencies": {
+    "concat-stream": "^1.4.5",
+    "react": "^0.13.1",
+    "tap": "^0.7.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "1af1042c5ea12735ab267b5436d855718f0d9d25",
+    "tarball": "http://registry.npmjs.org/coffee-react/-/coffee-react-4.1.0.tgz"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "register.js"
+  ],
+  "gitHead": "eeb584422b5593301a534042c368d3019f92daa6",
+  "homepage": "https://github.com/jsdf/coffee-react",
+  "keywords": [
+    "cjsx",
+    "coffee-react",
+    "coffeescript",
+    "jsx",
+    "react"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/jsdf/coffee-react/master/LICENSE"
+    }
+  ],
+  "main": "./lib/coffee-react-script",
+  "maintainers": [
+    {
+      "name": "jsdf",
+      "email": "james@jsdf.co"
+    }
+  ],
+  "name": "coffee-react",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jsdf/coffee-react.git"
+  },
+  "scripts": {
+    "prepublish": "cake build",
+    "test": "tap test/*.coffee"
+  },
+  "version": "4.1.0"
+}

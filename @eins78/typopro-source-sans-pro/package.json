@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      "@eins78/typopro-source-sans-pro@*",
+      "/Users/mfa/CODE/json-roa/json-roa-browser"
+    ]
+  ],
+  "_from": "@eins78/typopro-source-sans-pro@*",
+  "_id": "@eins78/typopro-source-sans-pro@0.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/@eins78/typopro-source-sans-pro",
+  "_nodeVersion": "5.7.1",
+  "_npmOperationalInternal": {
+    "host": "packages-13-west.internal.npmjs.com",
+    "tmp": "tmp/typopro-source-sans-pro-0.0.0.tgz_1457043700291_0.9579537808895111"
+  },
+  "_npmUser": {
+    "email": "1@178.is",
+    "name": "eins78"
+  },
+  "_npmVersion": "3.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "@eins78/typopro-source-sans-pro",
+    "raw": "@eins78/typopro-source-sans-pro@*",
+    "rawSpec": "*",
+    "scope": "@eins78",
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_shasum": "06a937846dbb82d94436b15d013ebdf96d828842",
+  "_shrinkwrap": null,
+  "_spec": "@eins78/typopro-source-sans-pro@*",
+  "_where": "/Users/mfa/CODE/json-roa/json-roa-browser",
+  "dependencies": {},
+  "description": "(testing)",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "06a937846dbb82d94436b15d013ebdf96d828842",
+    "tarball": "http://registry.npmjs.org/@eins78/typopro-source-sans-pro/-/typopro-source-sans-pro-0.0.0.tgz"
+  },
+  "license": "SEE LICENSE IN https://www.npmjs.com/package/typopro",
+  "main": "dist/TypoPRO-SourceSansPro.css",
+  "maintainers": [
+    {
+      "name": "eins78",
+      "email": "1@178.is"
+    }
+  ],
+  "name": "@eins78/typopro-source-sans-pro",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {},
+  "version": "0.0.0"
+}

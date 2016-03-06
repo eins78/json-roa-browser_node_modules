@@ -1,0 +1,94 @@
+{
+  "_args": [
+    [
+      "coffeetape@^1.0.1",
+      "/Users/mfa/CODE/json-roa/json-roa-browser"
+    ]
+  ],
+  "_from": "coffeetape@>=1.0.1 <2.0.0",
+  "_id": "coffeetape@1.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/coffeetape",
+  "_nodeVersion": "0.12.0",
+  "_npmUser": {
+    "email": "will@hflw.org",
+    "name": "hflw"
+  },
+  "_npmVersion": "2.5.1",
+  "_phantomChildren": {
+    "deep-equal": "0.2.2",
+    "defined": "0.0.0",
+    "glob": "3.2.11",
+    "inherits": "2.0.1",
+    "object-inspect": "0.4.0",
+    "resumer": "0.0.0",
+    "through": "2.3.8"
+  },
+  "_requested": {
+    "name": "coffeetape",
+    "raw": "coffeetape@^1.0.1",
+    "rawSpec": "^1.0.1",
+    "scope": null,
+    "spec": ">=1.0.1 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/coffeetape/-/coffeetape-1.0.1.tgz",
+  "_shasum": "85f7dc90603ae70150a40a36c796224446409a10",
+  "_shrinkwrap": null,
+  "_spec": "coffeetape@^1.0.1",
+  "_where": "/Users/mfa/CODE/json-roa/json-roa-browser",
+  "author": {
+    "name": "HFLW"
+  },
+  "bin": {
+    "coffeetape": "./bin/coffeetape"
+  },
+  "bugs": {
+    "url": "https://github.com/hflw/coffeetape/issues"
+  },
+  "dependencies": {
+    "coffee-script": "^1.9.1",
+    "tape": "^3.5.0"
+  },
+  "description": "Run tape tests written in coffeescript",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "85f7dc90603ae70150a40a36c796224446409a10",
+    "tarball": "http://registry.npmjs.org/coffeetape/-/coffeetape-1.0.1.tgz"
+  },
+  "gitHead": "5579f6e9a93d28dc6d2031742f19297a2dfbed52",
+  "homepage": "https://github.com/hflw/coffeetape",
+  "keywords": [
+    "coffee",
+    "coffeescript",
+    "tap",
+    "tape",
+    "test",
+    "testing",
+    "tests"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "hflw",
+      "email": "will@hflw.org"
+    }
+  ],
+  "name": "coffeetape",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hflw/coffeetape.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}

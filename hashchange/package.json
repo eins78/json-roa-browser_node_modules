@@ -1,0 +1,85 @@
+{
+  "_args": [
+    [
+      "hashchange@^1.0.0",
+      "/Users/mfa/CODE/json-roa/json-roa-browser"
+    ]
+  ],
+  "_from": "hashchange@>=1.0.0 <2.0.0",
+  "_id": "hashchange@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/hashchange",
+  "_npmUser": {
+    "email": "conspiracygore@gmail.com",
+    "name": "charlottegore"
+  },
+  "_npmVersion": "1.4.28",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "hashchange",
+    "raw": "hashchange@^1.0.0",
+    "rawSpec": "^1.0.0",
+    "scope": null,
+    "spec": ">=1.0.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/hashchange/-/hashchange-1.0.0.tgz",
+  "_shasum": "366a173d22b7fb09c77ad8d9ca72645a01da2851",
+  "_shrinkwrap": null,
+  "_spec": "hashchange@^1.0.0",
+  "_where": "/Users/mfa/CODE/json-roa/json-roa-browser",
+  "author": {
+    "name": "charlottegore"
+  },
+  "browser": {
+    "each": "foreach",
+    "indexof": "component-indexof"
+  },
+  "bugs": {
+    "url": "https://github.com/green-mesa/hashchange/issues"
+  },
+  "dependencies": {
+    "component-indexof": "0.0.3",
+    "foreach": "2.0.4"
+  },
+  "description": "hash change event handler thingy",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "366a173d22b7fb09c77ad8d9ca72645a01da2851",
+    "tarball": "http://registry.npmjs.org/hashchange/-/hashchange-1.0.0.tgz"
+  },
+  "gitHead": "ba3fbcd93b99a79d4c4b9f67272460569a5cc7a9",
+  "homepage": "https://github.com/green-mesa/hashchange",
+  "keywords": [
+    "browser",
+    "client",
+    "event",
+    "hash"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "amccollum",
+      "email": "amccollum+npm@gmail.com"
+    },
+    {
+      "name": "charlottegore",
+      "email": "charlotte@greenmesa.co.uk"
+    }
+  ],
+  "name": "hashchange",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/green-mesa/hashchange.git"
+  },
+  "scripts": {},
+  "version": "1.0.0"
+}

@@ -1,0 +1,169 @@
+{
+  "_args": [
+    [
+      "ampersand-model@^6.0.2",
+      "/Users/mfa/CODE/json-roa/json-roa-browser"
+    ]
+  ],
+  "_from": "ampersand-model@>=6.0.2 <7.0.0",
+  "_id": "ampersand-model@6.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/ampersand-model",
+  "_nodeVersion": "2.5.0",
+  "_npmUser": {
+    "email": "cdaringe@gmail.com",
+    "name": "cdaringe"
+  },
+  "_npmVersion": "2.13.2",
+  "_phantomChildren": {
+    "ampersand-events": "1.1.1",
+    "ampersand-version": "1.0.2",
+    "array-next": "0.0.1",
+    "key-tree-store": "1.3.0",
+    "lodash.assign": "3.2.0",
+    "lodash.bind": "3.1.0",
+    "lodash.escape": "3.2.0",
+    "lodash.forown": "3.0.2",
+    "lodash.has": "3.2.1",
+    "lodash.includes": "3.1.3",
+    "lodash.isarray": "3.0.4",
+    "lodash.isdate": "3.0.3",
+    "lodash.isequal": "3.0.4",
+    "lodash.isfunction": "3.0.8",
+    "lodash.isobject": "3.0.2",
+    "lodash.isstring": "3.0.1",
+    "lodash.omit": "3.1.0",
+    "lodash.result": "3.1.2",
+    "lodash.union": "3.1.0",
+    "lodash.uniqueid": "3.2.0"
+  },
+  "_requested": {
+    "name": "ampersand-model",
+    "raw": "ampersand-model@^6.0.2",
+    "rawSpec": "^6.0.2",
+    "scope": null,
+    "spec": ">=6.0.2 <7.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ampersand-model/-/ampersand-model-6.0.2.tgz",
+  "_shasum": "8a6957aff74b291f60369c6d338d1d38d2b94029",
+  "_shrinkwrap": null,
+  "_spec": "ampersand-model@^6.0.2",
+  "_where": "/Users/mfa/CODE/json-roa/json-roa-browser",
+  "author": {
+    "email": "henrik@andyet.net",
+    "name": "Henrik Joreteg"
+  },
+  "browserify": {
+    "transform": [
+      "ampersand-version"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/ampersandjs/ampersand-model/issues"
+  },
+  "dependencies": {
+    "ampersand-state": "^4.6.0",
+    "ampersand-sync": "^4.0.2",
+    "ampersand-version": "^1.0.2",
+    "lodash.assign": "^3.2.0",
+    "lodash.clone": "^3.0.3",
+    "lodash.isobject": "^3.0.2",
+    "lodash.result": "^3.1.2"
+  },
+  "description": "An extension to ampersand-state that adds methods and properties for working with a RESTful API.",
+  "devDependencies": {
+    "browserify": "^8.1.0",
+    "lodash": "^3.6.0",
+    "phantomjs": "^1.9.13",
+    "precommit-hook": "*",
+    "run-browser": "^2.0.1",
+    "tap-spec": "^2.1.2",
+    "tape": "^3.0.3",
+    "tape-run": "^0.3.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "8a6957aff74b291f60369c6d338d1d38d2b94029",
+    "tarball": "http://registry.npmjs.org/ampersand-model/-/ampersand-model-6.0.2.tgz"
+  },
+  "files": [
+    "ampersand-model.js"
+  ],
+  "gitHead": "42a6aaa366777ddf8073fb447967b8fe7a4bc535",
+  "homepage": "https://github.com/ampersandjs/ampersand-model",
+  "keywords": [
+    "model, ampersand, state"
+  ],
+  "license": "MIT",
+  "main": "./ampersand-model.js",
+  "maintainers": [
+    {
+      "name": "cdaringe",
+      "email": "cdaringe@gmail.com"
+    },
+    {
+      "name": "gar",
+      "email": "gar+npm@danger.computer"
+    },
+    {
+      "name": "henrikjoreteg",
+      "email": "henrik@joreteg.com"
+    },
+    {
+      "name": "latentflip",
+      "email": "phil@latentflip.com"
+    },
+    {
+      "name": "lukekarrys",
+      "email": "luke@lukekarrys.com"
+    },
+    {
+      "name": "pgilad",
+      "email": "giladp007@gmail.com"
+    }
+  ],
+  "name": "ampersand-model",
+  "optionalDependencies": {},
+  "pre-commit": [
+    "lint",
+    "test",
+    "validate"
+  ],
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ampersandjs/ampersand-model.git"
+  },
+  "scripts": {
+    "lint": "jshint .",
+    "preversion": "git checkout master && git pull && npm ls",
+    "publish-major": "npm run preversion && npm version major && git push origin master --tags && npm publish",
+    "publish-minor": "npm run preversion && npm version minor && git push origin master --tags && npm publish",
+    "publish-patch": "npm run preversion && npm version patch && git push origin master --tags && npm publish",
+    "start": "run-browser test/*.js",
+    "test": "browserify test/*.js | tape-run | tap-spec",
+    "validate": "npm ls"
+  },
+  "testling": {
+    "browsers": [
+      "android-browser/4.2..latest",
+      "chrome/22..latest",
+      "chrome/canary",
+      "firefox/17..latest",
+      "firefox/nightly",
+      "ie/8..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest"
+    ],
+    "files": "test/index.js"
+  },
+  "version": "6.0.2"
+}

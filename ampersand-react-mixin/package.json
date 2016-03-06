@@ -1,0 +1,93 @@
+{
+  "_args": [
+    [
+      "ampersand-react-mixin@^1.0.1",
+      "/Users/mfa/CODE/json-roa/json-roa-browser"
+    ]
+  ],
+  "_from": "ampersand-react-mixin@>=1.0.1 <2.0.0",
+  "_id": "ampersand-react-mixin@1.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/ampersand-react-mixin",
+  "_nodeVersion": "4.1.0",
+  "_npmUser": {
+    "email": "luke@lukekarrys.com",
+    "name": "lukekarrys"
+  },
+  "_npmVersion": "3.3.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "ampersand-react-mixin",
+    "raw": "ampersand-react-mixin@^1.0.1",
+    "rawSpec": "^1.0.1",
+    "scope": null,
+    "spec": ">=1.0.1 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ampersand-react-mixin/-/ampersand-react-mixin-1.0.1.tgz",
+  "_shasum": "7d7bee5b934701c1e5aa9ddc1b2d3560b0950b1b",
+  "_shrinkwrap": null,
+  "_spec": "ampersand-react-mixin@^1.0.1",
+  "_where": "/Users/mfa/CODE/json-roa/json-roa-browser",
+  "author": {
+    "email": "henrik@andyet.net",
+    "name": "Henrik Joreteg"
+  },
+  "bugs": {
+    "url": "https://github.com/ampersandjs/ampersand-react-mixin/issues"
+  },
+  "dependencies": {
+    "ampersand-events": "^1.1.0",
+    "lodash.bind": "^3.1.0",
+    "lodash.foreach": "^3.0.2"
+  },
+  "description": "Mixin for react classes to easily listen for changes and re-render from ampersand models/collections",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "7d7bee5b934701c1e5aa9ddc1b2d3560b0950b1b",
+    "tarball": "http://registry.npmjs.org/ampersand-react-mixin/-/ampersand-react-mixin-1.0.1.tgz"
+  },
+  "gitHead": "9512354d74fd2b908eefca2eeb3b3833cfef5d54",
+  "homepage": "https://github.com/ampersandjs/ampersand-react-mixin",
+  "keywords": [
+    "ampersand",
+    "mixin",
+    "react"
+  ],
+  "license": "MIT",
+  "main": "ampersand-react-mixin.js",
+  "maintainers": [
+    {
+      "name": "henrikjoreteg",
+      "email": "henrik@andyet.net"
+    },
+    {
+      "name": "gar",
+      "email": "gar+npm@danger.computer"
+    },
+    {
+      "name": "lukekarrys",
+      "email": "luke@lukekarrys.com"
+    },
+    {
+      "name": "latentflip",
+      "email": "phil@latentflip.com"
+    }
+  ],
+  "name": "ampersand-react-mixin",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ampersandjs/ampersand-react-mixin.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}

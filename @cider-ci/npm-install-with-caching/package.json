@@ -1,0 +1,80 @@
+{
+  "_args": [
+    [
+      "@cider-ci/npm-install-with-caching",
+      "/Users/mfa/CODE/json-roa/json-roa-browser"
+    ]
+  ],
+  "_from": "@cider-ci/npm-install-with-caching@latest",
+  "_id": "@cider-ci/npm-install-with-caching@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/@cider-ci/npm-install-with-caching",
+  "_nodeVersion": "5.7.1",
+  "_npmOperationalInternal": {
+    "host": "packages-13-west.internal.npmjs.com",
+    "tmp": "tmp/npm-install-with-caching-1.0.0.tgz_1457196267695_0.635612424928695"
+  },
+  "_npmUser": {
+    "email": "1+cidercinpm@178.is",
+    "name": "cider-ci"
+  },
+  "_npmVersion": "3.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "@cider-ci/npm-install-with-caching",
+    "raw": "@cider-ci/npm-install-with-caching",
+    "rawSpec": "",
+    "scope": "@cider-ci",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_shasum": "e79561f484a8344d32f8507d12803d411942085c",
+  "_shrinkwrap": null,
+  "_spec": "@cider-ci/npm-install-with-caching",
+  "_where": "/Users/mfa/CODE/json-roa/json-roa-browser",
+  "authors": [
+    "Max F. Albrecht <1@178.is>",
+    "Thomas Schank <DrTom@schank.ch>"
+  ],
+  "bin": {
+    "npm-install-with-caching": "npm-install_with_caching.sh"
+  },
+  "bugs": {
+    "url": "https://github.com/eins78/cider-ci_npm-install-with-caching/issues"
+  },
+  "dependencies": {},
+  "description": "npm install with caching on @cider-ci",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "e79561f484a8344d32f8507d12803d411942085c",
+    "tarball": "http://registry.npmjs.org/@cider-ci/npm-install-with-caching/-/npm-install-with-caching-1.0.0.tgz"
+  },
+  "gitHead": "594c83b2be9bbca6fcd3d2ba3eda6e1e6075eaef",
+  "homepage": "https://github.com/eins78/cider-ci_npm-install-with-caching#readme",
+  "keywords": [
+    "ci",
+    "cider-ci"
+  ],
+  "license": "MIT",
+  "main": "npm-install_with_caching.sh",
+  "maintainers": [
+    {
+      "name": "cider-ci",
+      "email": "1+cidercinpm@178.is"
+    }
+  ],
+  "name": "@cider-ci/npm-install-with-caching",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eins78/cider-ci_npm-install-with-caching.git"
+  },
+  "scripts": {},
+  "version": "1.0.0"
+}
